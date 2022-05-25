@@ -1,0 +1,59 @@
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % git branch
+* master
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % git log
+commit 5a692b98a2f3f408aeec69ded00567a2a5c9825a (HEAD -> master, origin/master)
+Author: amandaay <amandaay.aysma@gmail.com>
+Date:   Tue May 24 18:00:27 2022 -0700
+
+    test
+
+commit c27dcd2c7bc343e8ddc2d8504784a6a13b74f0cb
+Author: amandaay <amandaay.aysma@gmail.com>
+Date:   Tue May 24 17:50:58 2022 -0700
+
+    initial commit
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % git log --oneline
+5a692b9 (HEAD -> master, origin/master) test
+c27dcd2 initial commit
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 793 bytes | 264.00 KiB/s, done.
+From https://github.com/amandaay/CS5004_lab3
+   5a692b9..446ba3b  master     -> origin/master
+Updating 5a692b9..446ba3b
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   lab03/.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % git log
+commit 446ba3b8d57f5fed4bea4f72126a27d89be097b4 (HEAD -> master, origin/master)
+Author: So Man Amanda Au-Yeung <58647320+amandaay@users.noreply.github.com>
+Date:   Tue May 24 18:08:11 2022 -0700
+
+    Create README.md
+
+commit 5a692b98a2f3f408aeec69ded00567a2a5c9825a
+Author: amandaay <amandaay.aysma@gmail.com>
+Date:   Tue May 24 18:00:27 2022 -0700
+
+    test
+
+commit c27dcd2c7bc343e8ddc2d8504784a6a13b74f0cb
+Author: amandaay <amandaay.aysma@gmail.com>
+Date:   Tue May 24 17:50:58 2022 -0700
+
+    initial commit
+(base) amandaay@Amandas-MacBook-Pro CS5004_lab3 % 
